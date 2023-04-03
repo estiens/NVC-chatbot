@@ -70,7 +70,7 @@ def clear_text():
     st.session_state["input"] = ""
 
 # input = st.text_input("Input window", key="input", )
-st.text_input(label="What would you like to rephrase or think through?",key="input", on_change=clear_text)
+st.text_input(label="What would you like to rephrase or think through? You can try something like 'please rephrase you always ask me so many questions, I feel like I'm being interrogated' or perhaps 'My partner is angry at me for not washing the dishes but I just forgot!' or 'My boss just insulted me for my work quality' or even just ask about a general situation.",key="input", on_change=clear_text)
 
 if st.session_state["user_input"]:
     user_input = st.session_state["user_input"]
