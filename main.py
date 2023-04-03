@@ -76,7 +76,8 @@ if st.session_state["user_input"]:
     user_input = st.session_state["user_input"]
     st.write("You: ", user_input)
     output = get_response(user_input)
-    st.text_area(label="Nambo says...", value=output, height=300)
+    st.write("Nambo: ", output)
+    # st.text_area(label="Nambo says...", value=output, height=300)
     st.session_state.generated.append(output)
     st.session_state.past.append(user_input)
 
