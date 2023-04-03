@@ -35,7 +35,7 @@ if input not in st.session_state:
     st.session_state["input"] = ""
 
 # From here down is all the StreamLit UI.
-st.set_page_config(page_title="NVC demo", page_icon=":robot:")
+st.set_page_config(page_title="Magic NVC helper!", page_icon=":robot:")
 
 with st.sidebar:
   col1, col2 = st.columns(2)
