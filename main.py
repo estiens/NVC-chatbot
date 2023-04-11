@@ -1,7 +1,6 @@
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
 from langchain import LLMChain, PromptTemplate
-from streamlit_chat import message
 from langchain import ConversationChain
 from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import ConversationChain
