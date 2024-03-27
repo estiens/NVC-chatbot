@@ -39,7 +39,7 @@ st.set_page_config(page_title='Magic NVC helper!', page_icon=':robot:')
 
 
 def load_chain():
-    llm = ChatOpenAI(model_name="gpt-4", temperature=0.5)
+    llm = ChatOpenAI(model_name="gpt-4-turbo-preview", temperature=0.4)
     if "conversation_summary" in st.session_state:
         st.session_state["conversation_summary"].clear()
     else:
