@@ -83,6 +83,20 @@ with st.sidebar:
       or things you want to say to someone else. The AI will help you rephrase your
       statements, response empathetically, or just re-think a situation"""
   )
+  st.markdown(''':tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:
+
+  :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom: I am glad people are using this app!
+  :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:
+
+  However, if you run into usage limits know that I have been struggling with the costs of running
+  this app for free lately as I have had single days where API use alone is between $10-$20. I am going
+  to set a usage limit, after which it will switch to a slightly less powerful model, after which it will
+  temporarily pause. If that happens I will let you know and when it will be back!
+
+  I do not want to charge for this at this time, as it was an experiment, but I wasn't expecting
+  usage to get to the point where it is three digit bills per month either! I hope you understand.'''
+)
+
 
 def clear_text():
     st.session_state["user_input"] = st.session_state["input"]
