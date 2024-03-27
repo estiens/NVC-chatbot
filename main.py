@@ -44,7 +44,7 @@ def load_chain():
         st.session_state["conversation_summary"].clear()
     else:
         st.session_state["conversation_summary"] = ConversationSummaryBufferMemory(
-            llm=llm, max_token_limit=1000, return_messages=True)
+            llm=llm, max_token_limit=8000, return_messages=True)
     chain = ConversationChain(
         llm=llm,
         prompt=conversation_prompt,
