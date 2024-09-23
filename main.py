@@ -90,10 +90,7 @@ with st.sidebar:
   However, if you run into usage limits know that I have been struggling with the costs of running
   this app for free lately as I have had single days where API use alone is between $10-$20. I am going
   to set a usage limit, after which it will switch to a slightly less powerful model, after which it will
-  temporarily pause. If that happens I will let you know and when it will be back (prob beginning of the next month)!
-
-  I do not want to charge for this at this time, as it was an experiment, but I wasn't expecting
-  usage to get to the point where it is three digit bills per month either! I hope you understand.'''
+  temporarily pause. If that happens I will let you know and when it will be back (prob beginning of the next month)!'''
 )
 
 
